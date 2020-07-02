@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<title>Assignment solution for module 3</title>
+ 
+    <!--linked css files goes here-->   
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+<!--Building the header of navbar-->
+<header>
+  <!--here is the header drawing-->
+  <nav id="header-nav" class="navbar navbar-default">
+    <!--to store the information inside the header bar-->
+    <div class="container">
+     <!--this element is going to wrap up the list & etc--> 
+     <div class="navbar-header">
+         <!--here comes the name-->
+        <div class="company-name">Food LLC</div>
+         <!--used to hide some padding below in small size-->
+         <div class="padding hidden-xs"></div>
+          <!--done with name-->
+     </div>      
+    <!--wraped up the whole thing here-->  
+        
+    <!--making the collapsable button here-->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <!--so it will not show up in the browser screen-->    
+            <span class="sr-only">Toggle navigation</span>
+        <!--now it will not disturb in browser-->  
+            <!--customizing menu button here-->
+
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+               
+            <!--done with the bars inside of it-->
+        </button>
+    <!--done making the button-->
+      </div>
+    <!--header drawing ends up here-->  
+    <div id="collapsable-nav" class="collapse navbar-collapse">
+        <!--menu list items goes here-->
+        <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+                <span class="box1 listname visible-xs">Chicken</span>
+            </li>
+            <li>
+                <span class="box2 listname visible-xs">Beef</span>
+            </li>    
+            <li>
+                <span class="box3 listname visible-xs">Sushi</span>
+            </li>
+        
+        </ul>
+      </div>
+  </nav>
+</header>
+<!--Building the header-->
+<!--adding content below here-->
+    <h1 class="text-center">Our Menu</h1>
+
+<!--boxes are coded below here-->
+<div class="container-fluid">    
+    <div class="row">
+<!--putting content here below-->
+<!--first box content goes below-->        
+<div class="box col-lg-4 col-md-4 col-sm-6 col-xs-12">        
+        </div>
+<!--second box content goes below--> 
+<div class="box col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    
+        </div>
+<!--third box content goes below-->  
+<div class=" box col-lg-4 col-md-4 col-sm-12 col-xs-12">
+       
+        </div>
+<!--content ends here-->        
+</div>
+    </div>
+    
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
