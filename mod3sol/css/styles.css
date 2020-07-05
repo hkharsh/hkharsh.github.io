@@ -75,7 +75,12 @@ h1{
 .box{
     height: 100px;
     background-color: #9999;
-   
+   }
+
+.box-new{
+    height: 100px;
+    background-color: #9999;
+    row-width:90%;
 }
 
 
