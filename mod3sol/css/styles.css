@@ -82,7 +82,7 @@ h1{
 .box{
     height: 100px;
     background-color: #9999;
-    margin: 2px;
+    /*margin: 2px;*/
 }
 .thirdbox{
     float: right;
