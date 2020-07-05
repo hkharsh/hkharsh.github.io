@@ -71,10 +71,10 @@ h1{
     font-family: sansbold;
     margin-bottom: 25px;
 }
-.row{
+/*.row{
     margin: 0px;
     
-}
+}*/
 .container-fluid{
     margin: 0px;
    
@@ -82,7 +82,7 @@ h1{
 .box{
     height: 100px;
     background-color: #9999;
-    margin: 1px;
+    margin: 2px;
 }
 .thirdbox{
     float: right;
