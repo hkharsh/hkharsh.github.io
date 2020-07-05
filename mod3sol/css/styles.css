@@ -42,6 +42,10 @@
     border: 3px solid white;
 }
 
+.icon-bar:focus{
+    border: 3px solid white;
+}
+
 /*here goes the modification of list items*/
 .listname{
     font-family:sansbold;
